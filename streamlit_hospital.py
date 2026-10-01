@@ -8,7 +8,7 @@ st.set_page_config(page_title='Hospital Management System')
 st.title("Hospital Management System")
 menu=st.sidebar.selectbox("Menu",['Add Patient','View Patient','View Doctors',
                                   'Search Doctors By Department','Book Appointment',
-                                  'View Appointment','Cancel Appointment','Generate Bill','Edit Patient'])
+                                  'View Appointment','Cancel Appointment','Generate Bill'])
 if menu=="Add Patient":
     st.header("Add Patient")
     patient_name=st.text_input("Patient Name")
